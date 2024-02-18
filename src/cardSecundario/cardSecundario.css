@@ -1,0 +1,94 @@
+.cardSecundario{
+    display: flex;
+    flex-wrap: wrap;
+    width: min(1600px, 100%);
+    margin: 87px 0 0 0;
+    justify-content:center;
+}
+
+.cardEspec{
+    max-width: 260px;
+    min-height: 365px;
+    text-align: center;
+    border: #ECA756;
+    border-radius: 20px;
+    border-width: thick;
+    border-style: solid;
+    box-shadow:  0px 0px 1px 1px #ECA756;
+    background-color: #ECA756;
+    
+}
+
+.planoSec{
+    color: #2A2C31;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.valorSec{
+    color: #2A2C31;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.valorSec span{
+    color: #2A2C31;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.fidelidadeSec {
+    color: #95560C;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: normal;
+    font-size: 8px;
+    padding: 0;
+    margin-top: -5px;
+    margin-bottom: 26px;
+}
+
+.listaSec{
+    padding: 0 40px;
+    text-align: left;
+}
+
+.listaSec li{
+    color: #2A2C31;
+    font-size: 12px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: normal;
+    padding: 0 5px;
+    list-style-type: none;
+    text-indent: -23px;
+    margin: 12px 0;
+
+}
+
+.listaSec li:before{
+    content: '✓';
+    color: #2A2C31;
+    margin-right:13px;
+    font-weight: bolder;
+}
+
+.botaoCard{
+    position: relative;
+    max-width: 260px;
+    justify-content: center;
+    padding: 0;
+    margin: auto;
+    max-width: 80%;
+    display: block;
+    margin-top: 30px;
+    
+    
+}

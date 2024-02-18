@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 220px 80px 80px 40px;
+}
+
+.endereco{
+    font-weight: bold;
+    font-family: 'Opens-Sans',sans-serif;
+    font-size: 20px;
+    color: #F3911E;
+}
+
+.textoEndereco{
+    margin: 8px 0 20px 0;
+    font-family: 'Open-Sans',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.redes img{
+    padding: 5px
+}

@@ -1,0 +1,114 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: 87px 0 0 0;
+}
+
+.cardEspecifico{
+    max-width: 360px;
+    min-height: 550px;
+    text-align: center;
+    border: #ECA756;
+    border-radius: 20px;
+    border-width: thick;
+    border-style: solid;
+    box-shadow:  0px 3px 5px 1px #ECA756;
+    background-color: #2A2C31;
+    
+}
+
+h6{
+    background-color: #ECA756;
+    display: inline-block;
+    padding: 13px 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+    color: #2A2C31;
+
+}
+
+h4{
+    color: #F3911E;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: -20px;
+    padding: 0;
+}
+
+h5{
+    color: #F3911E;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+h5 span{
+    color: #FFFFFF;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    padding: 0;
+    margin: 0;
+}
+
+.fidelidade {
+    color: #696C75;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 0;
+    margin-top: -20px;
+}
+
+.lista{
+    padding: 0 60px;
+    text-align: left;
+}
+
+.lista li{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    padding: 10px 0;
+    list-style-type: none;
+    margin: 0;
+    text-indent: -23px;
+    
+}
+
+.lista li:before{
+    content: '✓';
+    color: #F3911E;
+    margin-right: 13px;
+    font-weight: 900;
+}
+
+.botaoCard{
+    position: relative;
+    max-width: 260px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    display: block;
+    
+}
+
+.externo{
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+

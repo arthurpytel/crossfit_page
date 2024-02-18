@@ -1,0 +1,50 @@
+.insta{
+    margin: auto;
+}
+
+.fundoInsta{
+    z-index: -5;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+.sigaInstagram{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #Ffffff;
+    font-size: 44px;
+    font-family: 'Open-Sans',sans-serif;
+    margin: 99px 0 40px 0;
+    padding: 0;
+}
+
+.sigaInstagram span{
+    color: #F3911E; 
+    
+}
+
+.imagensCross{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.imagensCross img{
+    max-width: 18%;
+    height: auto;
+    margin: 9px;
+   
+}
+
+.botaoInsta{
+    padding: 0;
+    margin: 40px auto;
+    width: 218px;
+    
+   
+}

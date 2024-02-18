@@ -1,0 +1,29 @@
+.agendar{
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.agendar:hover{
+    animation: animate 1s linear;
+}
+
+@keyframes animate{
+    0%{
+        box-shadow: 0 0 0 0 #F3911E;
+    }
+    40%{
+        box-shadow: 0 0 0 4px #F3911E;
+    }
+    80%{
+        box-shadow: 0 0 0 2.5px #F3911E;
+    }
+    100%{
+        box-shadow: 0 0 0 1px #F3911E;
+    }
+}

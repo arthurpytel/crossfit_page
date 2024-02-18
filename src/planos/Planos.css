@@ -1,0 +1,55 @@
+.planos{
+    position: relative;
+    width: 100%;
+}
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+    color: #2A2C31;
+    padding: 85px 0 0 0;
+    margin: 0;
+}
+
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Open Sans',sans-serif;
+    color: #2A2C31;
+    margin: 0;
+}
+
+.imgFundo{
+    width: 100%;
+    z-index: -1;
+}
+
+.fundo{
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: -1;
+    position: absolute;
+
+}
+
+.geral {
+    position: relative;
+    z-index: 1;
+}
+
+.cartoes{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+

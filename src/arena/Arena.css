@@ -1,0 +1,54 @@
+.arena{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #25272B;
+}
+
+
+.arenaTexto {
+    margin: 0 70px 0;
+}
+
+@media(max-width: 1110px){
+    .arena h2{
+        font-size: 20px;
+    }
+
+    .arena .img{
+        display: none;
+    }
+
+    .arena p{
+        font-size: 9px;
+    }
+}
+
+h2{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+h2 span{
+    font-weight: bolder;
+}
+
+p{
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+}
+
+p span{
+    font-weight: bold;
+    color: #F3911E;
+}
+
+.botaoArena{
+    max-width: 245px;
+}
+
+

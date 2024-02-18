@@ -1,0 +1,14 @@
+.cabecalhoForm{
+    display: flex;
+    align-items:center;
+    margin: 32px 0;
+    
+}
+
+.cabecalhoForm img{
+    margin-left: 105px;
+}
+
+.botaoHeaderForm{
+    margin-left: 715px;
+}

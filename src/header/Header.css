@@ -1,0 +1,44 @@
+.cabecalho{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0px;
+    height: 120px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A2C31;
+}
+
+.header{
+    list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+    justify-content:flex-start;
+    
+}
+
+li{
+    margin:0 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.botaoHeader{
+    max-width: 218px;
+}
+ul li:hover{
+    text-decoration:underline;
+    color: #ffffff;
+    font-weight: bolder;
+
+}
